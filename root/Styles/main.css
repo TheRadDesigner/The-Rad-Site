@@ -1,0 +1,152 @@
+'main.css'
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DFDFDF;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Benton Sans Wide;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #0201FF;
+}
+
+h2 {
+  font-family: Benton Sans Wide;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #0201FF;
+}
+
+h3 {
+  font-family: Benton Sans Wide;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0201FF;
+}
+
+h4 {
+  font-family: Benton Sans Wide;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #0201FF;
+}
+
+p {
+  font-family: Benton Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  /* or 23px */
+  text-align: justify;
+  color: #0201FF;
+}
+
+/* Site Layout */
+.SiteContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0201FF;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 80vh;
+
+}
+
+/* Header */
+.Header {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0201FF;
+  height: 11%;
+}
+
+.HeaderLogo {
+  width: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0201FF;
+  align-items: center;
+}
+
+.HeaderLogo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.HeaderLinks {
+  display: flex;
+  width: 70%;
+  align-items: center;
+
+}
+
+.HeaderLinks a {
+  font-family: Benton Sans Wide;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0201FF;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content */
+.Content {
+  height: 83.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0201FF;
+}
+
+/* Footer */
+.Footer {
+  max-height: 5.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0201FF;
+  display: flex;
+}
+.FooterLeft{
+  width: 50%
+}
+.FooterLinks {
+  display: flex;
+  width: 50%;
+  text-align: right;
+  background-color: green;
+}
+
+.FooterLinks a {
+
+}
